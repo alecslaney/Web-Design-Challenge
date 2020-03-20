@@ -8,16 +8,17 @@ body {
     margin: auto;
 }
 
-.container-fluid {
+#index {
     min-height: calc(100vh - 60px);
 }
 
 .navbar {
     font-size: 15px;
     padding: 0 30px;
+    background-color: white;
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     color: white;
     font-weight: bold;
 	background-color: #38ab87;
@@ -96,6 +97,23 @@ p {
 .data-header {
     text-align: left;
 }
+
+@media (max-width: 993px) {
+    .navbar-expand-lg {
+        background-color: #38ab87;
+        padding: 0px 0px;
+    }
+    
+    .navbar-nav {
+        padding: 10px;
+        background-color: white;
+    }
+
+    .navbar-brand {
+        padding: 10px;
+    }
+
+    }
 
 .footer {
 	background-color: #505251; 
