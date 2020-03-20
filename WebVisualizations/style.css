@@ -93,6 +93,10 @@ p {
     text-align: center;
 }
 
+.data-header {
+    text-align: left;
+}
+
 .footer {
 	background-color: #505251; 
     border-top-style: solid; 
